@@ -169,7 +169,7 @@
 
 import {test, expect, Locator} from '@playwright/test';
 
-test.only ('DropDown Verification', async ({page}) =>{
+test ('DropDown Verification', async ({page}) =>{
 
 await page.goto("https://testautomationpractice.blogspot.com/");
 
