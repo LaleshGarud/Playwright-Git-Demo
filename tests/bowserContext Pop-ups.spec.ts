@@ -74,7 +74,7 @@
 
 import {test, expect} from "@playwright/test"
 
-test.only ("Dialogs Frame Demo", async ({page}) => {
+test ("Dialogs Frame Demo", async ({page}) => {
 
 await page.goto("https://testautomationpractice.blogspot.com/");
 
